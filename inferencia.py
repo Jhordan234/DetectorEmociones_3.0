@@ -2,7 +2,7 @@ from ultralytics import YOLO
 import cv2
 
 # Cargar el modelo YOLO
-model = YOLO(r"D:\Detector_Emociones\best.pt")
+model = YOLO(r"D:\Detector_Emociones\best2.pt")
 
 # Iniciar la cámara (0 para webcam integrada)
 cap = cv2.VideoCapture(0)
